@@ -1,0 +1,50 @@
+:root {
+    --main-blue : #00b0ff;
+    --yellow : #f2d800;
+}
+
+.text-main {
+    color: var(--main-blue);
+}
+
+.bg-main {
+    background-color: var(--main-blue);
+    color: white;
+}
+
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+    color: white;
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.montserrat-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.playfair-italic {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nav-link:hover {
+    background-color: var(--main-blue);
+    color: white!important;
+}
+
+#card-surf {
+    height: 600px;
+    width: 1030px;
+    margin: auto;
+}
