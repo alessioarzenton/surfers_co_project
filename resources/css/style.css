@@ -1,5 +1,8 @@
 * {
     box-sizing:border-box!important;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -89,3 +92,54 @@ button.nav-link-tab:hover {
         letter-spacing:10px;
     }
 } */
+
+#about-video-text {
+    position: relative;
+    z-index: 10;
+    margin-top: -200px;
+}
+
+#about-text {
+    margin-top: -300px;
+}
+
+#instagram-title {
+    font-size:6.2rem;
+    letter-spacing:10px;
+    margin-bottom: -50px;
+}
+
+@media only screen and (max-width:1400px) {
+    #instagram-title {
+        font-size:5.3rem;
+        letter-spacing:8.5px;
+    }
+}
+@media only screen and (max-width:1200px) {
+    #instagram-title {
+        font-size:4.4rem;
+        letter-spacing:7.2px;
+        margin-bottom: -40px;
+    }
+}
+@media only screen and (max-width:992px) {
+    #instagram-title {
+        font-size:3rem;
+        letter-spacing:7.7px;
+        margin-bottom: -25px;
+    }
+}
+@media only screen and (max-width:768px) {
+    #instagram-title {
+        font-size:60px;
+        letter-spacing:7px;
+    }
+}
+@media only screen and (max-width:576px) {
+    #instagram-title {
+        font-size:30px;
+        letter-spacing:7px;
+        margin-bottom: 0;
+    }
+}
+
