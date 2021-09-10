@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box!important;
+}
+
 :root {
     --main-blue : #00b0ff;
     --yellow : #f2d800;
@@ -38,6 +42,16 @@
     font-style: italic;
 }
 
+.raleway-bold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.raleway-regular {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 .nav-link:hover {
     background-color: var(--main-blue);
     color: white!important;
@@ -48,3 +62,30 @@
     width: 1030px;
     margin: auto;
 }
+
+button.nav-link-tab {
+    outline: none!important;
+    box-shadow:none!important;
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-bottom: 2px solid transparent!important;
+    background-color: transparent!important;
+}
+
+button.nav-link-tab:hover {
+    color: black!important;
+    border-bottom: 2px solid var(--main-blue)!important;
+}
+
+#about-title p {
+    font-size: 196px;
+    letter-spacing:20px;
+}
+
+/* @media only screen and (max-width: 1170px) {
+    #about-title p {
+        font-size: 100px;
+        letter-spacing:10px;
+    }
+} */

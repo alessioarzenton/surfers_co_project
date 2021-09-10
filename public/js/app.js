@@ -3155,6 +3155,24 @@ function within(min, value, max) {
 
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 
+__webpack_require__(/*! ./script */ "./resources/js/script.js");
+
+/***/ }),
+
+/***/ "./resources/js/script.js":
+/*!********************************!*\
+  !*** ./resources/js/script.js ***!
+  \********************************/
+/***/ (() => {
+
+// let tabs = document.querySelectorAll('.nav-link-tab');
+// tabs.forEach( tab => {
+//     tab.addEventListener('click', function() {
+//         this.classList.add('active-tab');
+//         console.log(tab);
+//     })
+// });
+
 /***/ }),
 
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.esm.js":
