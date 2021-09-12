@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<div id="about" class="container-fluid vh-100" style="background: url('{{Storage::url('public/img/background.jpg')}}'); background-size: contain;  background-repeat: no-repeat; margin-top: -100px"></div>
+<div id="about" class="container-fluid vh-100" style="background: url('{{Storage::url('public/img/background.jpg')}}'); background-size: contain;  background-repeat: no-repeat"></div>
 
 <div id="about-video-text" class="container">
     <div class="row">

@@ -3,12 +3,16 @@
 
         <x-navbar />
 
+        @if (session('message'))
+            <div class="alert alert-success text-center montserrat-bold shadow" style="width: 600px; margin: 20px auto"><i class="bi bi-check-circle-fill"></i> {{ session('message') }}</div>
+        @endif
+
         <div id="title" style="margin: 100px auto">
             <h1 class="playfair-italic display-4 text-center">Ride every wave as if it's you</h1>
             <h4 class="playfair-italic text-center text-white">We love the motion of the ocean</h4>
         </div>
 
-        <div id="card-surf" class="row justify-content-center bg-white p-5 shadow" style="background: url('{{Storage::url('public/img/sfondo-card.jpg')}}'); background-size: contain;  background-repeat: no-repeat;">
+        <div id="card-surf" class="row justify-content-center bg-white p-5 shadow" style="background: url('{{Storage::url('public/img/sfondo-card.jpg')}}'); background-size: cover;  background-repeat: no-repeat; background-position: center center">
             <div class="col-11">
                 <div class="row">
                     <div class="col-6">
