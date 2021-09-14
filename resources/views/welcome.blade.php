@@ -14,7 +14,7 @@
                 <h4 class="playfair-italic text-center text-white">We love the motion of the ocean</h4>
             </div>
 
-            <div id="carousel" class="carousel carousel-dark slide shadow" data-bs-ride="carousel">
+            <div id="carousel" class="carousel carousel-dark slide shadow" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="1500">
                 <div class="carousel-inner">
                     @foreach ($products as $product)
                     <div class="carousel-item h-100 p-5 @if ($loop->first)

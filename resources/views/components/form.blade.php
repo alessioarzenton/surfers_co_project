@@ -1,6 +1,6 @@
 <div class="container pt-5 py-5">
     <div class="row pt-5 py-5 py-lg-0">
-        <div id="col-instagram" class="col-12 col-md-6 h-100">
+        <div id="col-instagram" class="col-12 col-md-6 h-100" data-aos="flip-left" data-aos-duration="1500">
             <p id="instagram-title" class="text-light monteserrat-bold fw-bolder text-center" style="position: relative; z-index: -1">INSTAGRAM</p>
             <img id="instagram-img" class="w-100" src="{{Storage::url('public/img/instagram.jpg')}}" alt="instagram">
             <div class="row p-2 bg-white shadow-sm">
