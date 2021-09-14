@@ -17,8 +17,8 @@
             </div>
         </div>
         <div class="col-0 col-lg-1"></div>
-        <div id="about-video" class="col-12 col-lg-5 text-center mt-2">
-            <iframe id="video" class="shadow-lg mx-auto" width="100%" height="315" src="https://www.youtube.com/embed/5n4qePlCR_0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="about-video" class="col-12 col-lg-5 text-center mt-2 d-none d-lg-block shadow-lg">
+            <iframe id="video" class=" mx-auto" width="100%" height="100%" src="https://www.youtube.com/embed/5n4qePlCR_0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>

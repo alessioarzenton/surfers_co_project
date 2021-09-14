@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/app.css">
 
-    <title>{{ $title ?? 'Surfers-co' }}</title>
+    <title>{{ $title ?? 'Surfers Co.' }}</title>
   </head>
   <body>
 

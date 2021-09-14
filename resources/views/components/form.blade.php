@@ -1,7 +1,7 @@
 <div class="container pt-5 py-5">
     <div class="row pt-5 py-5 py-lg-0">
         <div id="col-instagram" class="col-12 col-md-6 h-100">
-            <p id="instagram-title" class="text-light monteserrat-bold fw-bolder" style="position: relative; z-index: -1">INSTAGRAM</p>
+            <p id="instagram-title" class="text-light monteserrat-bold fw-bolder text-center" style="position: relative; z-index: -1">INSTAGRAM</p>
             <img id="instagram-img" class="w-100" src="{{Storage::url('public/img/instagram.jpg')}}" alt="instagram">
             <div class="row p-2 bg-white shadow-sm">
                 <div class="col d-flex align-items-center">
