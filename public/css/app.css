@@ -12667,6 +12667,9 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?94eeade15e6b7fbed95b18ff3
 * {
     box-sizing:border-box!important;
 }
+.row {
+    --bs-gutter-x: 0;
+}
 
 :root {
     --main-blue : #00b0ff;
@@ -12727,13 +12730,20 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?94eeade15e6b7fbed95b18ff3
     background-color: var(--main-blue);
     color: white!important;
 }
-
-/* #card-surf {
-    height: 600px;
-    width: 1030px;
-    margin: auto;
-} */
-
+a.p-2 {
+    background-color: black;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+a.p-2:hover {
+    background-color: var(--main-blue);
+}
+a.navbar-brand {
+    transition: all .3s ease-in-out!important;
+}
+a.navbar-brand:hover {
+    color: var(--main-blue)!important;
+}
 button.nav-link-tab {
     outline: none!important;
     box-shadow:none!important;
@@ -12758,13 +12768,6 @@ button.nav-link-tab:hover {
     letter-spacing:20px;
 }
 
-/* @media only screen and (max-width: 1170px) {
-    #about-title p {
-        font-size: 100px;
-        letter-spacing:10px;
-    }
-} */
-
 #about-video-text {
     position: relative;
     z-index: 10;
@@ -12781,22 +12784,6 @@ button.nav-link-tab:hover {
     margin-bottom: -50px;
 }
 
-/* #instagram-img::after {
-    content: 'Go to feed';
-    position: absolute;
-    display: block;
-    width: 200px;
-    height: 80px;
-    top: 50%;
-    left: 50%;
-    margin-top: -40px;
-    margin-left: -100px;
-    color: white;
-    background-color: black;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 20px;
-    text-align: center;
-} */
 #instagram-img {
     transition: all .3s ease-in-out;
 }
@@ -12805,6 +12792,13 @@ button.nav-link-tab:hover {
     position: relative;
     z-index: 99;
 }
+#footer {
+    background-color: #000;
+    padding-bottom: 240px;
+    margin-top: -200px;
+}
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width:1400px) {
     #instagram-title {
@@ -12848,6 +12842,9 @@ button.nav-link-tab:hover {
         letter-spacing:5px;
         margin-top: 240px;
     }
+    #about-title {
+        margin-top:-200px;
+    }
 }
 @media only screen and (max-width:768px) {
     #instagram-title {
@@ -12857,17 +12854,17 @@ button.nav-link-tab:hover {
 }
 @media only screen and (max-width:576px) {
     #instagram-title {
-        font-size:30px;
+        font-size:50px;
         letter-spacing:7px;
-        margin-bottom: 0;
+        margin-bottom: -20px;
+    }
+    #footer {
+        background-color: #000;
+        margin-top: 20px;
     }
 }
 
-#footer {
-    background-color: #000;
-    padding-bottom: 240px;
-    margin-top: -200px;
-}
+
 
 
 /* Bootstrap */

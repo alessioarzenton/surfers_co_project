@@ -1,9 +1,9 @@
-<div class="container pt-5">
-    <div class="row pt-5">
+<div class="container pt-5 py-5">
+    <div class="row pt-5 py-5 py-lg-0">
         <div id="col-instagram" class="col-12 col-md-6 h-100">
             <p id="instagram-title" class="text-light monteserrat-bold fw-bolder" style="position: relative; z-index: -1">INSTAGRAM</p>
-            <img id="instagram-img" class="img-fluid w-100" src="{{Storage::url('public/img/instagram.jpg')}}" alt="instagram">
-            <div class="row p-2 bg-white">
+            <img id="instagram-img" class="w-100" src="{{Storage::url('public/img/instagram.jpg')}}" alt="instagram">
+            <div class="row p-2 bg-white shadow-sm">
                 <div class="col d-flex align-items-center">
                     <i class="bi bi-instagram text-main me-3" style="font-size: 24px"></i>
                     <span class="roboto text-main me-3" style="font-size: 24px">
@@ -20,9 +20,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 h-100 d-flex align-items-center pt-5">
+        <div class="col-0 col-md-1"></div>
+        <div class="col-12 col-md-5 h-100 d-flex align-items-center pt-xl-5">
 
-            <form class="px-5 w-100 pt-5" action="{{route('contact')}}" method="POST">
+            <form class="w-100 pt-5" action="{{route('contact')}}" method="POST">
                 @csrf
                 <div class="mb-3">
                     <input name="name" value="{{old('name')}}" type="text" class="form-control montserrat-regular @error('name')
